@@ -1,10 +1,14 @@
-# 🧱 Component Library
+# 🧩 Component Library
 
-A reusable, customizable, and accessible component library built with React, TypeScript, and styled-components/TailwindCSS. Designed for B2B enterprise apps with a focus on consistency, scalability, and developer experience.
+A reusable component library built with **React**, **TypeScript**, and **Tailwind CSS**. It includes core UI building blocks like pagination, accordions, tabs, folders, and more — designed for scalability and accessibility in modern frontend applications.
 
-## 🚀 Project Overview
+## 📌 GitHub Repository
 
-This library includes core UI components like buttons, inputs, modals, and more—each built with performance and accessibility in mind. Developed as part of a frontend interview assignment focused on Color, Data Display, and Navigation.
+🔗 [Component Library GitHub Repo](https://github.com/junaidahmedshaikh/Component-Library)
+
+## 📖 Storybook Preview
+
+🌐 [Live Storybook - Chromatic](https://www.chromatic.com/library?appId=6805255bdb0069525483e0d8)
 
 ## 📂 Folder Structure
 
@@ -12,16 +16,40 @@ This library includes core UI components like buttons, inputs, modals, and more�
 Component-Library/
 ├── public/               # Static assets
 ├── src/
-│   ├── components/       # Reusable UI components
-│   │   ├── Button/       # Button component + stories + styles
-│   │   ├── Card/         # Card component
-│   │   └── ...           # More components (Data Display, Navigation)
-│   ├── styles/           # Global styles / tokens
-│   ├── tokens/           # Design tokens (colors, spacing, typography)
-│   ├── utils/            # Helper functions (e.g., classNames, theming)
-│   └── index.ts          # Entry point for exports
-├── .storybook/           # Storybook config files
-├── .gitignore
+│   ├── components/       # All reusable components
+│   │   ├── Pagination/
+│   │   ├── Accordion/
+│   │   ├── Tabs/
+│   │   ├── Tree/
+│   │   └── ...           # More UI components
+│   ├── tokens/           # Design tokens for consistent styling
+│   ├── styles/           # Global styles or utility classes
+│   ├── utils/            # Utility functions
+│   └── index.ts          # Library entry point
+├── .storybook/           # Storybook configuration
 ├── package.json
-├── README.md
-└── tsconfig.json
+├── tailwind.config.js
+├── tsconfig.json
+└── README.md
+```
+
+# ⚙️ Tech Stack
+React (UI library)
+
+TypeScript (type safety)
+
+Tailwind CSS (utility-first styling)
+
+Storybook (component playground & docs)
+
+Chromatic (storybook deployment)
+
+
+## GIF Demos
+# Pagination
+
+# Accordion Interaction
+
+# Folder Explorer Animation
+
+# Tab Component in Action
